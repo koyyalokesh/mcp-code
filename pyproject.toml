@@ -1,0 +1,24 @@
+[project]
+name = "mcp-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "koyyalokesh", email = "koyyalokesh9@example.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp<4",
+    "langchain-core>=1.6.3",
+    "langchain-mcp-adapters>=0.3.1",
+    "langchain-openai>=1.6.2",
+    "mcp<2",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+mcp-code = "mcp_code:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
