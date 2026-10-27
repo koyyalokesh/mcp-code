@@ -23,6 +23,7 @@ uv sync
 | [04_mcp_http](./04_mcp_http) | Running an MCP server over HTTP |
 | [05_notification](./05_notification) | MCP notifications |
 | [06_tool_to_tool](./06_tool_to_tool) | One MCP tool calling another MCP tool |
+| [07_error_handling](./07_error_handling) | Handling expected and unexpected MCP tool errors |
 
 Each example folder contains its own Python files and may include a detailed README with setup and run instructions.
 
@@ -52,6 +53,7 @@ mcp-code/
 |-- 04_mcp_http/
 |-- 05_notification/
 |-- 06_tool_to_tool/
+|-- 07_error_handling/
 |-- src/mcp_code/
 |-- pyproject.toml
 |-- uv.lock
