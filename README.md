@@ -24,6 +24,7 @@ uv sync
 | [05_notification](./05_notification) | MCP notifications |
 | [06_tool_to_tool](./06_tool_to_tool) | One MCP tool calling another MCP tool |
 | [07_error_handling](./07_error_handling) | Handling expected and unexpected MCP tool errors |
+| [08_github_mcp](./08_github_mcp) | Automating GitHub workflows through MCP |
 
 Each example folder contains its own Python files and may include a detailed README with setup and run instructions.
 
@@ -54,6 +55,7 @@ mcp-code/
 |-- 05_notification/
 |-- 06_tool_to_tool/
 |-- 07_error_handling/
+|-- 08_github_mcp/
 |-- src/mcp_code/
 |-- pyproject.toml
 |-- uv.lock
